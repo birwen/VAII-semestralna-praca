@@ -7,6 +7,10 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.navbar {
+    background-color: #f7d6d0 !important;
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -59,13 +63,44 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Franklin Gothic Book';
+    background-color: #f5f5f5;
 }
+
+h1 {
+    /*nastavenie nadpisov urovne h1*/
+    color: darkslategray;
+    text-align: center;
+    width: 100%;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+ul.etikod :nth-child(even) {
+    /*kazdy parny riadok v etickom kodexe bude sivy*/
+    color: grey;
+}
+
+#welcome {
+    background-size: cover;
+    width: 600px;
+    height: 125px;
+    top: 15%;
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.homeText {
+    text-align : center;
+    position: relative;
+    top : 125px;
 }
