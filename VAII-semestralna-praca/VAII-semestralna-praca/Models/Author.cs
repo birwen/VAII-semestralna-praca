@@ -10,7 +10,7 @@ namespace VAII_semestralna_praca.Models
 		public int ID { get; set; }
 		public string Name { get; set; }
 		public DateTime Birth { get; set; }
-		public DateTime Death { get; set; }
+		public DateTime? Death { get; set; }
 
 		public ICollection<Poem> Poem { get; set; }
 	}

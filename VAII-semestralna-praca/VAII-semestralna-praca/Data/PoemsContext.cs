@@ -15,5 +15,7 @@ namespace VAII_semestralna_praca.Data
         }
 
         public DbSet<VAII_semestralna_praca.Models.Poem> Poem { get; set; }
+
+        public DbSet<VAII_semestralna_praca.Models.Author> Author { get; set; }
     }
 }
