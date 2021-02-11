@@ -7,9 +7,15 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-.navbar {
-    background-color: #f7d6d0 !important;
+.navbar-light {
+  background-color: #f7d6d0 !important;
 }
+
+#file-upload-button{
+    background: #1B6EC2 !important;
+    padding: 6px 12px !important;
+}
+
 
 /* Provide sufficient contrast against white background */
 a {
